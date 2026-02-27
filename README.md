@@ -50,6 +50,12 @@ lucide-react
 
 ![screen](/public/gif1.gif)
 
+<br>
+
+
+
+![gif](/public/gif3.gif)
+
 
 
 
