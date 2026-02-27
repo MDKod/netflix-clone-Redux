@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+	body {
+		@apply bg-linear-to-br from-[#141414] via-[#1a1a1a] to-[#0a0a0a] min-h-screen text-[#e6e6e6];
+	}
+
+	a,
+	button {
+		@apply transition duration-300;
+	}
+}
+
+@layer utilities {
+	.padding {
+		@apply p-5 md:px-10 lg:px-15 xl:px-20;
+	}
+}
+
+
+@layer components {
+	.hero-btn{
+		@apply py-2 px-6 bg-linear-to-br from-red-600 to-red-700 rounded-lg transition duration-300 hover:scale-105 hover:shadow-xl hover:brightness-90 min-w-41.25 flex items-center justify-center gap-2 font-medium;
+	}
+}
